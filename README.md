@@ -9,7 +9,9 @@
 - Hosted image locally
 - Added both linear-gradient and background blend-mode (Lines #60 & 61)
 
-## GH Pages - https://kaiser-sk.github.io/cpnt260-a4/
+## GH Pages
+
+https://kaiser-sk.github.io/cpnt260-a4/
 
 ## Attributions
 
