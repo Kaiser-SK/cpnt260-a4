@@ -1,0 +1,77 @@
+body, html{
+  /*Page Styling*/
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+  /*Font Styling*/
+  font-family: 'Archivo Black', Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  padding: 1.5rem;
+  color: #352424;
+}
+
+p{
+  /*Box Styling*/
+  margin: 1rem;
+  width: 40ch;
+
+  /*Font Styling*/
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 2rem;
+  color: #352424;
+}
+
+a{
+  /*Box Styling*/
+  display: block;
+  width: 25ch;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1.5rem;
+
+  /*Font Styling*/
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #ff0000;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+
+  /*Make It Fancy*/
+  border: 4px solid #cc1104;
+  border-radius: 10px;
+  background-color: #fffb00;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+}
+
+a:hover{
+  /*Make It Fancy*/
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  border: 4px solid #dadd07;
+  background-color: #ff0000;
+  color: #fffb00;
+}
+
+.hero-img{
+  /*Full Screen Photo*/
+  background-image: linear-gradient(rgba(0, 162, 255, 0.288), rgba(0, 0, 0, 0.103)), url("/cpnt260-a4/assets/images/model_man.jpg");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.hero-text {
+  /*Text Positioning*/
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
